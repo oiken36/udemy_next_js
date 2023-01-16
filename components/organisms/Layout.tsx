@@ -7,7 +7,7 @@ import { isConstructorDeclaration } from 'typescript';
 import Link from 'next/link';
 
 
-const name = 'Minami Sara';
+const name = 'シャチ';
 
 export const siteTitle = 'Next.js Blog';
 

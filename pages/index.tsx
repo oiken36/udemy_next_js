@@ -45,14 +45,12 @@ export default function Home({ allPostsData }:any) {
         </Head>
         <section className={utilStyles.headingMd}>
           <p>
-            南 沙良（みなみ さら、2002年〈平成14年〉6月11日 -
-            ）は、日本の女優、ファッションモデル。東京都出身。レプロエンタテインメント所属。第18回ニコラモデルオーディショングランプリ。元『nicola』専属モデル（「ニコモ」
-          </p>
+          シャチ（鯱、学名: Orcinus orca）は、哺乳綱鯨偶蹄目マイルカ科シャチ属の海獣[2]である。日本ではサカマタ（逆叉、逆戟）という別名もある[2]。シャチは、魚類全般、サメだけでなく、自分の倍以上の大きさであるヒゲクジラ亜目のうち最大のシロナガスクジラを含むクジラなどを群れで襲って食べる。寿命が長く、年長のメスを中心とする母系社会を形成する社会性を持つ動物          </p>
         </section>
       </Layout>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2>📝南沙良ブログ</h2>
+        <h2>📝 シャチブログ</h2>
         <div className={homeStyles.grid}>
           {allPostsData.map(({ id, title, date, thumbnail }: any) => (
             <article key={`${id}`}>
